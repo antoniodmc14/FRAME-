@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame Fest</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header__mb" class="header">
+        <div id="menu-button" class="burguer__button">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="header__search-container">
+            <input type="text" class="header__search-input" placeholder="Buscar">
+        </div>
+        <div class="header__cart-button">
+            <a id="cart-icon-mb" href="#" class="header__cart-icon">
+                <img src="icons/Vector-carrito.svg" alt="Cart Icon">
+            </a>
+        </div>
+    </header>
+
+    <header id="header__dk" class="header">
+        <nav>
+            <ul class="header__menu">
+                <li><a href="entradas.html">Entradas</a></li>
+                <li><a href="#cartel">Cartel</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="localizacion.html">Localización</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__search-container">
+            <input type="text" class="header__search-input" placeholder="Buscar">
+        </div>
+        <div class="header__cart-button">
+            <a id="cart-icon-dk" href="#" class="header__cart-icon">
+                <img src="icons/Vector-carrito.svg" alt="Cart Icon">
+            </a>
+        </div>
+    </header>
+
+    <!-- Overlay Menu-->
+    <nav id="menu-overlay" class="overlay">
+        <header class="overlay__header">
+            </div>
+            <div class="col text-end">
+                <img src="img/Frame__logo-movil.svg" alt="Logo" class="overlay__logo-cart">
+                <a href="#" id="close-button" class="overlay__close">Close</a>
+            </div>
+            </div>
+        </header>
+        <div class="overlay__container">
+
+
+            <div class="overlay__content">
+                <ul>
+                    <li class="overlay__menu-item"><a href="entradas.html">Entradas</a></li>
+                    <li class="overlay__menu-item"><a href="#nosotros">Nosotros</a></li>
+                    <li class="overlay__menu-item"><a href="Cartel-sabado.html">Cartel Sábado</a></li>
+                    <li class="overlay__menu-item"><a href="Cartel-domingo.html">Cartel Domingo</a></li>
+                    <li class="overlay__menu-item"><a href="localizacion.html">Localización</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay Carrito -->
+    <nav id="cart-overlay" class="overlay__boton_cart">
+        <div class="overlay__container">
+            <header class="overlay__header">
+                <img src="img/Frame__logo-movil.svg" alt="Logo" class="overlay__logo-cart">
+                <a href="#" class="overlay__close-cart">Close</a>
+            </header>
+            <section class="overlay__section">
+                <div class="overlay__section-hijo">
+                    <div class="prueba">
+                        <div>
+                            <p>Producto</p>
+                        </div>
+                        <div class="cantidad">
+                            <p>Cantidad</p>
+                        </div>
+                        <div>
+                            <p>Precio</p>
+                        </div>
+                    </div>
+                    <div class="prueba__contenido">
+                        <div class="button__container">
+                            <button class="custom__button">
+                                <img src="icons/Vector-menos.svg" alt="Menos">
+                            </button>
+                            <button class="custom__button">
+                                <img src="icons/Vector-mas.svg" alt="Más">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="overlay__footer">
+                        <div class="pie__precio">
+                            <div class="total__pedido">
+                                <span>Total</span>
+                            </div>
+                            <div>
+                                <span class="total__precio">5€</span>
+                            </div>
+                        </div>
+                        <div class="button__finalizar">
+                            <a href="#" class="btn__hero">Finalizar compra</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </nav>
+
+    <!-- Hero web-->
+    <section class="hero">
+        <div class="padre__hero">
+            <div class="logo__frame">
+                <img src="img/Frame__logo-movil.svg" alt="Logo">
+            </div>
+            <div class="hero__content">
+                <p>Conecta, explora, disfruta</p>
+            </div>
+            <div class="boton__padre">
+                <div class="btn__hero">
+                    <a href="entradas.html" class="btn__entradas">Entradas</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Qué es FRAME-->
+    <section class="info__section">
+        <div class="info__section-lines">
+            <div class="line">
+
+            </div>
+            <div class="info__section-coordinates">
+                <p>36°56’02”N 4°40’52”O</p>
+            </div>
+            <div class="line">
+
+            </div>
+        </div>
+
+        <section id="nosotros" class="info__section-wrapper">
+            <div class="info__section-hijo">
+                <h1>¿Qué es FRAME?</h1>
+                <p><strong>Frame</strong> es un festival audiovisual que explora la escalada boulder y
+                    sus múltiples expresiones, sumergiéndonos en las historias y motivaciones de sus peculiares
+                    protagonistas.</p>
+            </div>
+
+            <div class="boton_localizacion">
+                <div class="localizacion__valle">
+                    <div>
+                        <img src="icons/Vector_localizacion.svg" alt="">
+                    </div>
+                    <div>
+                        <p>Valle Abdalajís</p>
+                    </div>
+                </div>
+                <div class="boton__valle">
+                    <a href="entradas.html">Comprar entradas</a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Cards Films-->
+
+    <section id="cartel" class="cards__section">
+        <div class="container-fluid cards__section-container">
+            <div class="row cards__section-header">
+                <div class="col-12 cards-section__header-col">
+                    <div class="header__container col-md-6">
+                        <h3 class="header__title">Sábado 23 de octubre</h3>
+                        <div class="header__button-container">
+                            <a href="Cartel-sabado.html" class="header__button">
+                                + Info
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__cards row overflow-auto mb-4">
+                <div class="col-6 card-wrapper card-wrapper-1 ">
+                    <a href="articulo-blockhead.html">
+                        <div class="card">
+                            <div class="card__image-wrapper">
+                                <img src="img/blocheads.png" class="card-img-top" alt="Blocheads">
+                            </div>
+                            <div class="card__body">
+                                <p class="card__text">
+                                    <span class="first__word">Blocheads</span> La historia de la escalada boulder en el
+                                    Reino Unido protagonizada por los intrépidos Blocheads
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 card-wrapper card-wrapper-2">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image-wrapper">
+                                <img src="img/connecting-walls.png" class="card-img-top" alt="Connecting Walls">
+                            </div>
+
+                            <div class="card__body">
+                                <p class="card__text">
+                                    <span class="first__word">Connecting Walls</span> "Jumbo" Yokoyama y Keita Kurakami
+                                    se
+                                    dirigen hacia los muros de la isla de Yakushima
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 card-wrapper card-wrapper-3">
+                    <div class="card">
+                        <div class="card__image-wrapper">
+                            <img src="img/josune.png" class="card-img-top" alt="Josune Bereziartu">
+                        </div>
+
+                        <div class="card__body">
+                            <p class="card__text">
+                                <span class="first__word">Josune Bereziartu</span> lleva liderando la máxima dificultad
+                                femenina de la escalada deportiva mundial desde 1997
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row cards__section-header">
+                <div class="col-12 cards-section__header-col">
+                    <div class="header__container">
+                        <h3 class="header__title">Domingo 24 de octubre</h3>
+                        <div class="header__button-container">
+                            <a href="Cartel-domingo.html" class="header__button">+ Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" container__cards row overflow-auto">
+                <div class="col-6 card-wrapper card-wrapper-uno">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image-wrapper">
+                                <img src="img/Stone__Locals-card.jpg" class="card-img-top" alt="Stone Locals">
+                            </div>
+                            <div class="card__body">
+                                <p class="card__text">
+                                    <span class="first__word">Stone Locals</span> narra la historia de cinco escaladores
+                                    que
+                                    preservan la esencia de la escalada
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 card-wrapper card-wrapper-dos">
+                    <a href="articulo-rotpunkt.html">
+                        <div class="card">
+                            <div class="card__image-wrapper">
+                                <img src="img/rot-punkt.png" class="card-img-top" alt="Rot Punkt">
+                            </div>
+                            <div class="card__body">
+                                <p class="card__text">
+                                    <span class="first__word">Rot-Punkt</span> A través del fracaso y el éxito, Alex
+                                    Megos
+                                    se esfuerza por ser el mejor escalador del mundo
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 card-wrapper card-wrapper-tres">
+                    <div class="card">
+                        <div class="card__image-wrapper">
+                            <img src="img/rullo-jorge.png" class="card-img-top" alt="Jorge Rullo">
+                        </div>
+
+                        <div class="card__body">
+                            <p class="card__text">
+                                <span class="first__word">Jorge Rullo</span> destaca por sus logros en escalada en roca,
+                                como la ruta "El Bon Combat" o "Bibliografía"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!--         FOOTER       -->
+
+    <footer class="footer">
+        <div class="container-fluid footer__border-container">
+            <div class="row">
+                <div class="col-12">
+                    <hr class="footer__border-bottom">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="footer__image-container">
+                        <img src="img/cartel-pie-de-página.svg" alt="Cartel Informativo" class="footer__image-mb">
+                        <img src="img/Cartel-md-pie-de-pagina.svg" alt="Cartel Informativo" class="footer__image-dk">
+                    </div>
+                    <div class="patrocinio__footer">
+                        <div class="patrocinio__frame">
+                            <h3>Patrocinado por</h3>
+                        </div>
+                        <div class="padre__patrocinio">
+                            <div class="footer__sponsor">
+                                <img src="img/Vector-patagonia-movil.svg" class="imagen__patagonia" alt="Patagonia">
+                            </div>
+                            <div class="footer__sponsor">
+                                <img src="img/arcteryx1.svg" class="imagen__arcteryx" alt="Arcteryx">
+                            </div>
+                            <div class="footer__sponsor">
+                                <img src="img/Vector-sportiva-movil.svg" class="imagen__sportiva" alt="Sportiva">
+                            </div>
+                        </div>
+                        <div class="contacto__localizacion">
+                            <div class="contacto">
+                                <p>
+                                    frame@festival.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!----------- Menu redes ----------->
+
+        <ul class="menu-redes">
+
+            <li class="menu-redes__item">
+                <a href="#" class="menu-redes__link facebook">
+                    <img src="icons/Vector__fb.svg">facebook
+                </a>
+            </li>
+
+            <li class="menu-redes__item">
+                <a href="#" class="menu-redes__link twitter">
+                    <img src="icons/Vector__twitter.svg">twitter
+                </a>
+            </li>
+
+            <li class="menu-redes__item">
+                <a href="#" class="menu-redes__link instagram">
+                    <img src="icons/Vector__instagram.svg">instagram
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Botones y overlays para el menú
+            const menuButton = document.getElementById('menu-button');
+            const closeButtonMenu = document.getElementById('close-button');
+            const menuOverlay = document.getElementById('menu-overlay');
+
+            // Botones y overlays para el carrito
+            const cartButtonMb = document.getElementById('cart-icon-mb');
+            const cartButtonDk = document.getElementById('cart-icon-dk');
+
+
+            const closeButtonCart = document.querySelector('.overlay__close-cart');
+            const cartOverlay = document.getElementById('cart-overlay');
+
+            // Abrir el overlay del menú
+            menuButton.addEventListener('click', function (event) {
+                event.preventDefault();
+                menuOverlay.classList.add('active');
+            });
+
+            // Cerrar el overlay del menú
+            closeButtonMenu.addEventListener('click', function (event) {
+                event.preventDefault();
+                menuOverlay.classList.remove('active');
+            });
+
+            // Abrir el overlay del carrito en movil
+            cartButtonMb.addEventListener('click', function (event) {
+                event.preventDefault();
+                cartOverlay.classList.add('active');
+            });
+
+            // Abrir el overlay del carrito en desktop
+            cartButtonDk.addEventListener('click', function (event) {
+                event.preventDefault();
+                cartOverlay.classList.add('active');
+            });
+
+            // Cerrar el overlay del carrito
+            closeButtonCart.addEventListener('click', function (event) {
+                event.preventDefault();
+                cartOverlay.classList.remove('active');
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const hero = document.querySelector('.hero');
+            const images = ['hero-img-1', 'hero-img-2', 'hero-img-3'];
+            let currentIndex = 0;
+
+            function changeBackground() {
+                // Elimina todas las clases de imagen
+                images.forEach(imgClass => hero.classList.remove(imgClass));
+
+                // Añade la clase de la imagen actual
+                hero.classList.add(images[currentIndex]);
+
+                // Actualiza el índice para la siguiente imagen
+                currentIndex = (currentIndex + 1) % images.length;
+            }
+
+            // Cambia la imagen cada 8 segundos (8000 ms)
+            setInterval(changeBackground, 8000); // Cambiado a 8000 ms para permitir la transición de 3s
+
+            // Inicializa la primera imagen
+            changeBackground();
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
